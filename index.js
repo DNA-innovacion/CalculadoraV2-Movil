@@ -37,7 +37,7 @@ function calcular() {
 
         document.getElementById('ctSerums').value = unidades;
         document.getElementById('PrecioVenta').value = precio;
-        document.getElementById('ganancias').value = formatter.format(ganancias);
+        document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
     else if (valor > 49999 && valor < 60000) {
@@ -48,7 +48,7 @@ function calcular() {
 
         document.getElementById('ctSerums').value = unidades;
         document.getElementById('PrecioVenta').value = precio;
-        document.getElementById('ganancias').value = formatter.format(ganancias);
+        document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
     else if (valor > 59999 && valor < 100000) {
@@ -59,7 +59,7 @@ function calcular() {
 
         document.getElementById('ctSerums').value = unidades;
         document.getElementById('PrecioVenta').value = precio;
-        document.getElementById('ganancias').value = formatter.format(ganancias);
+        document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
     else if (valor > 99999 && valor < 130000) {
@@ -70,7 +70,7 @@ function calcular() {
 
         document.getElementById('ctSerums').value = unidades;
         document.getElementById('PrecioVenta').value = precio;
-        document.getElementById('ganancias').value = formatter.format(ganancias);
+        document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
     else if (valor > 129999 && valor < 150000) {
@@ -81,7 +81,7 @@ function calcular() {
 
         document.getElementById('ctSerums').value = unidades;
         document.getElementById('PrecioVenta').value = precio;
-        document.getElementById('ganancias').value = formatter.format(ganancias);
+        document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
     else if (valor > 149000 && valor < 200000) {
@@ -92,7 +92,7 @@ function calcular() {
 
         document.getElementById('ctSerums').value = unidades;
         document.getElementById('PrecioVenta').value = precio;
-        document.getElementById('ganancias').value = formatter.format(ganancias);
+        document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
 
@@ -104,7 +104,7 @@ function calcular() {
 
         document.getElementById('ctSerums').value = unidades;
         document.getElementById('PrecioVenta').value = precio;
-        document.getElementById('ganancias').value = formatter.format(ganancias);
+        document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
 
