@@ -35,8 +35,8 @@ function calcular() {
         resultado = 299 * unidades;
         ganancias = resultado - valor;
 
-        document.getElementById('ctSerums').value = unidades;
-        document.getElementById('PrecioVenta').value = precio;
+        document.getElementById('ctSerums').value = unidades + ' Serums';
+        document.getElementById('PrecioVenta').value = formatter.format(precio) +' MXN';
         document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
@@ -46,8 +46,8 @@ function calcular() {
         resultado = 299 * unidades;
         ganancias = resultado - valor;
 
-        document.getElementById('ctSerums').value = unidades;
-        document.getElementById('PrecioVenta').value = precio;
+        document.getElementById('ctSerums').value = unidades + ' Serums';
+        document.getElementById('PrecioVenta').value = formatter.format(precio) +' MXN';
         document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
@@ -57,8 +57,8 @@ function calcular() {
         resultado = 299 * unidades;
         ganancias = resultado - valor;
 
-        document.getElementById('ctSerums').value = unidades;
-        document.getElementById('PrecioVenta').value = precio;
+        document.getElementById('ctSerums').value = unidades + ' Serums';
+        document.getElementById('PrecioVenta').value = formatter.format(precio) +' MXN';
         document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
@@ -68,8 +68,8 @@ function calcular() {
         resultado = 299 * unidades;
         ganancias = resultado - valor;
 
-        document.getElementById('ctSerums').value = unidades;
-        document.getElementById('PrecioVenta').value = precio;
+        document.getElementById('ctSerums').value = unidades + ' Serums';
+        document.getElementById('PrecioVenta').value = formatter.format(precio) +' MXN';
         document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
@@ -79,8 +79,8 @@ function calcular() {
         resultado = 299 * unidades;
         ganancias = resultado - valor;
 
-        document.getElementById('ctSerums').value = unidades;
-        document.getElementById('PrecioVenta').value = precio;
+        document.getElementById('ctSerums').value = unidades + ' Serums';
+        document.getElementById('PrecioVenta').value = formatter.format(precio) +' MXN';
         document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
@@ -90,8 +90,8 @@ function calcular() {
         resultado = 299 * unidades;
         ganancias = resultado - valor;
 
-        document.getElementById('ctSerums').value = unidades;
-        document.getElementById('PrecioVenta').value = precio;
+        document.getElementById('ctSerums').value = unidades + ' Serums';
+        document.getElementById('PrecioVenta').value = formatter.format(precio) +' MXN';
         document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
@@ -102,8 +102,8 @@ function calcular() {
         resultado = 299 * unidades;
         ganancias = resultado - valor;
 
-        document.getElementById('ctSerums').value = unidades;
-        document.getElementById('PrecioVenta').value = precio;
+        document.getElementById('ctSerums').value = unidades + ' Serums';
+        document.getElementById('PrecioVenta').value = formatter.format(precio) +' MXN';
         document.getElementById('ganancias').value = formatter.format(ganancias) +' MXN';
         document.getElementById('MXN').value = formatter.format(valor) + ' MXN';
     }
